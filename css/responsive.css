@@ -124,12 +124,17 @@
     /* About */
 
     .about-grid{
-        grid-template-columns:1fr;
-    }
+    grid-template-columns:1fr;
+}
 
-    .stats-grid{
-        grid-template-columns:1fr 1fr;
-    }
+.about-left,
+.about-right{
+    gap:20px;
+}
+
+.stats-card{
+    grid-template-columns:repeat(2,1fr);
+}
 
     /* Skills */
 
@@ -212,6 +217,10 @@
     .hero p{
         font-size:.95rem;
     }
+
+.stats-card{
+    grid-template-columns:1fr;
+}
 
     .stats-grid{
         grid-template-columns:1fr;
