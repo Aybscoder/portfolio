@@ -173,10 +173,6 @@ body.dark #header{
     padding:1.5rem;
     box-shadow:var(--shadow);
 }
-/* ==========================
-   BACK TO TOP
-========================== */
-
 #scrollTopBtn{
 
     position:fixed;
@@ -185,13 +181,13 @@ body.dark #header{
 
     bottom:30px;
 
-    width:54px;
+    width:52px;
 
-    height:54px;
+    height:52px;
 
     border:none;
 
-    border-radius:18px;
+    border-radius:50%;
 
     background:var(--primary);
 
@@ -203,22 +199,14 @@ body.dark #header{
 
     display:none;
 
-    align-items:center;
+    z-index:999;
 
-    justify-content:center;
-
-    box-shadow:6px 6px 0 rgba(0,0,0,.2);
-
-    z-index:9999;
-
-    transition:.3s ease;
+    transition:.3s;
 
 }
 
 #scrollTopBtn:hover{
 
-    transform:translate(-4px,-4px);
-
-    box-shadow:10px 10px 0 rgba(0,0,0,.25);
+    transform:translateY(-6px);
 
 }

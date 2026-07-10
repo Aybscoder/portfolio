@@ -76,12 +76,3 @@ body.dark{
     --shadow-lg:0 20px 60px rgba(0,0,0,.45);
 
 }
-:root{
-
-    --font-heading:"Sora",sans-serif;
-
-    --font-body:"Manrope",sans-serif;
-
-    --font-code:"JetBrains Mono",monospace;
-
-}

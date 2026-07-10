@@ -25,33 +25,21 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 console.log("Portfolio Loaded Successfully");
 
-// ==========================
-// BACK TO TOP
-// ==========================
+const scrollBtn=document.getElementById("scrollTopBtn");
 
-const scrollBtn = document.getElementById("scrollTopBtn");
+window.addEventListener("scroll",()=>{
 
-window.addEventListener("scroll", () => {
-
-    if (window.scrollY > 400) {
-
-        scrollBtn.style.display = "flex";
-
-    } else {
-
-        scrollBtn.style.display = "none";
-
-    }
+    scrollBtn.style.display=window.scrollY>500?"flex":"none";
 
 });
 
-scrollBtn.addEventListener("click", () => {
+scrollBtn.addEventListener("click",()=>{
 
     window.scrollTo({
 
-        top: 0,
+        top:0,
 
-        behavior: "smooth"
+        behavior:"smooth"
 
     });
 
