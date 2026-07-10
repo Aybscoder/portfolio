@@ -145,25 +145,3 @@
     }
 
 }
-
-@media (max-width:768px){
-
-    .timeline{
-
-        padding-left:20px;
-
-    }
-
-    .timeline-item::before{
-
-        left:-31px;
-
-    }
-
-    .timeline-content ul{
-
-        grid-template-columns:1fr;
-
-    }
-
-}
