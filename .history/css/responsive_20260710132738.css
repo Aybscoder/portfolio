@@ -182,30 +182,3 @@
     }
 
 }
-@media(max-width:768px){
-
-    .footer-content{
-
-        flex-direction:column;
-
-        text-align:center;
-
-    }
-
-}
-
-@media(max-width:900px){
-
-    .about-grid{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .stats-grid{
-
-        grid-template-columns:1fr 1fr;
-
-    }
-
-}

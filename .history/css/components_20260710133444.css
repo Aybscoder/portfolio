@@ -62,67 +62,40 @@ body.dark #header{
     width:100%;
 }
 
-/* ==========================================
-   BUTTONS
-========================================== */
+/* Buttons */
 
 .btn{
-
     display:inline-flex;
-
     align-items:center;
-
     justify-content:center;
-
-    gap:10px;
-
-    padding:16px 34px;
-
-    border-radius:18px;
-
-    font-weight:700;
-
-    text-decoration:none;
-
-    transition:var(--transition);
-
+    padding:.95rem 1.6rem;
+    border-radius:999px;
+    font-weight:600;
+    transition:.3s ease;
+    cursor:pointer;
 }
 
 .btn-primary{
-
-    background:var(--gradient);
-
+    background:var(--primary);
     color:#fff;
-
-    box-shadow:var(--shadow);
-
 }
 
 .btn-primary:hover{
-
-    transform:translateY(-6px);
-
-    box-shadow:var(--shadow-hover);
-
+    transform:translateY(-2px);
+    box-shadow:var(--shadow);
 }
 
 .btn-secondary{
-
-    background:transparent;
-
     border:1px solid var(--border);
-
+    background:var(--surface);
     color:var(--text);
-
 }
 
 .btn-secondary:hover{
-
-    background:var(--surface);
-
-    transform:translateY(-6px);
-
+    border-color:var(--primary);
+    color:var(--primary);
 }
+
 /* Badge */
 
 .badge{
@@ -136,131 +109,37 @@ body.dark #header{
     margin-bottom:1.5rem;
 }
 
-/* ==========================================
-   HERO
-========================================== */
-
-.hero{
-
-    min-height:100vh;
-
-    display:flex;
-
-    align-items:center;
-
-    position:relative;
-
-}
-
-.hero-content{
-
-    max-width:820px;
-
-}
-
-.hero .badge{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:10px;
-
-    padding:10px 20px;
-
-    border-radius:999px;
-
-    background:rgba(99,102,241,.12);
-
-    border:1px solid rgba(99,102,241,.18);
-
-    color:var(--primary);
-
-    font-size:.9rem;
-
-    font-weight:600;
-
-    margin-bottom:32px;
-
-}
+/* Hero */
 
 .hero h1{
-
-    font-family:var(--font-heading);
-
-    font-size:clamp(3.5rem,7vw,5.8rem);
-
-    line-height:.95;
-
-    letter-spacing:-3px;
-
-    margin-bottom:20px;
-
+    font-size:clamp(3rem,8vw,5.6rem);
+    line-height:1;
+    margin-bottom:1rem;
 }
 
 .hero h2{
-
-    font-size:clamp(1.2rem,2.5vw,1.8rem);
-
-    font-weight:700;
-
+    font-size:1.45rem;
     color:var(--primary);
-
-    margin-bottom:24px;
-
+    margin-bottom:1rem;
 }
 
 .hero p{
-
-    max-width:650px;
-
-    font-size:1.1rem;
-
-    line-height:1.8;
-
+    max-width:680px;
     color:var(--text-light);
-
+    font-size:1.05rem;
 }
 
-.hero-tags{
-
-    display:flex;
-
-    flex-wrap:wrap;
-
-    gap:14px;
-
-    margin-top:42px;
-
-}
+/* Tags */
 
 .hero-tags li{
-
-    list-style:none;
-
-    padding:10px 18px;
-
-    border-radius:999px;
-
-    background:var(--surface);
-
+    padding:.55rem .95rem;
     border:1px solid var(--border);
-
-    font-family:var(--font-code);
-
+    border-radius:999px;
+    background:var(--surface);
+    color:var(--text-light);
     font-size:.9rem;
-
-    transition:var(--transition);
-
 }
 
-.hero-tags li:hover{
-
-    transform:translateY(-4px);
-
-    border-color:var(--primary);
-
-}
 /* Theme & Menu */
 
 #themeToggle,

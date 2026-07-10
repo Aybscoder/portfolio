@@ -166,7 +166,7 @@ body.dark #header{
 
     gap:10px;
 
-    padding:10px 20px;
+    padding:12px 22px;
 
     border-radius:999px;
 
@@ -176,7 +176,7 @@ body.dark #header{
 
     color:var(--primary);
 
-    font-size:.9rem;
+    font-size:.95rem;
 
     font-weight:600;
 
@@ -188,35 +188,35 @@ body.dark #header{
 
     font-family:var(--font-heading);
 
-    font-size:clamp(3.5rem,7vw,5.8rem);
+    font-size:clamp(4rem,9vw,7rem);
 
-    line-height:.95;
+    line-height:.92;
 
-    letter-spacing:-3px;
-
-    margin-bottom:20px;
-
-}
-
-.hero h2{
-
-    font-size:clamp(1.2rem,2.5vw,1.8rem);
-
-    font-weight:700;
-
-    color:var(--primary);
+    letter-spacing:-4px;
 
     margin-bottom:24px;
 
 }
 
+.hero h2{
+
+    font-size:clamp(1.4rem,3vw,2rem);
+
+    color:var(--primary);
+
+    margin-bottom:28px;
+
+    font-weight:700;
+
+}
+
 .hero p{
 
-    max-width:650px;
+    max-width:700px;
 
-    font-size:1.1rem;
+    font-size:1.18rem;
 
-    line-height:1.8;
+    line-height:1.9;
 
     color:var(--text-light);
 
