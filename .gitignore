@@ -1,0 +1,11 @@
+# VS Code Local History
+.history/
+
+# VS Code settings
+.vscode/
+
+# Node packages
+node_modules/
+
+# macOS
+.DS_Store
